@@ -1,4 +1,4 @@
-{% set version = "11.11.0" %}
+{% set version = "13.2.0" %}
 {% set node_version = os.environ.get('NODEJS_VERSION') or '6.*' %}
 
 package:
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ version }}.tar.gz
   url: https://github.com/tmpvar/jsdom/archive/{{ version }}.tar.gz
-  sha256: 6eaff229067351b3e535050bf4fdaf55b76366438b866f7d9bb61444c3e376aa
+  sha256: e3b8e05604d04693ee15ae170dbcbf3f22c29f8423079c5024b17cfc595c9e25
 
 build:
   number: 0
