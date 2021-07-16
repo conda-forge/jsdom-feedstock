@@ -11,7 +11,7 @@ source:
   sha256: f6d7e19b5e6381156ed89edcccb3b4e44744e51af31ce684c11cded0a1454dd4
 
 build:
-  number: 1
+  number: 2
   script: npm install . && npm install -g .
 
 requirements:
