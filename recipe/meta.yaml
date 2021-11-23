@@ -1,4 +1,4 @@
-{% set version = "14.0.0" %}
+{% set version = "18.1.1" %}
 {% set node_version = os.environ.get('NODEJS_VERSION') or '6.*' %}
 
 package:
@@ -8,10 +8,10 @@ package:
 source:
   fn: {{ version }}.tar.gz
   url: https://github.com/tmpvar/jsdom/archive/{{ version }}.tar.gz
-  sha256: f6d7e19b5e6381156ed89edcccb3b4e44744e51af31ce684c11cded0a1454dd4
+  sha256: 366e130a13702bbcbd5eb88f7382593601f50148cf3190c96ddd9e7bf073c0af
 
 build:
-  number: 2
+  number: 0
   script: npm install . && npm install -g .
 
 requirements:
