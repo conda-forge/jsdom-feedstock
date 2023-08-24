@@ -41,6 +41,20 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_nodejs18</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jsdom-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_nodejs18" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_nodejs20</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jsdom-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_nodejs20" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_nodejs18</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3983&branchName=main">
@@ -52,6 +66,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3983&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jsdom-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_nodejs20" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_nodejs18</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jsdom-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_nodejs18" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_nodejs20</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jsdom-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_nodejs20" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -198,4 +226,5 @@ Feedstock Maintainers
 =====================
 
 * [@blankclemens](https://github.com/blankclemens/)
+* [@xhochy](https://github.com/xhochy/)
 
