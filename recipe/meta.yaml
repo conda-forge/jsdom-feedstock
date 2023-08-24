@@ -10,11 +10,14 @@ source:
 
 build:
   number: 4
-  script: npm install . && npm install -g .
 
 requirements:
+  build:
+    - nodejs  # [not win]
   host:
     - nodejs
+    - pnpm
+    - pnpm licenses
   run:
     - nodejs
 
