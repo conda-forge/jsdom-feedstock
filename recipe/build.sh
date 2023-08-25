@@ -14,10 +14,10 @@ ln -s $BUILD_PREFIX/bin/node $PREFIX/bin/node
 
 NPM_CONFIG_USERCONFIG=/tmp/nonexistentrc
 
-# install prettier globally from the npm registry
-# all things coming after this are just concerned with generating the ThirdPartyLicenses.txt file
-npm install -g ${PKG_NAME}@${PKG_VERSION}
-
 pnpm import
-pnpm install --prod
+# Without a `yarn install` first, this package cannot install its prod dependencies.
+yarn install
+pnpm install
+pnpm pack
+npm install -g ${PKG_NAME}-${PKG_VERSION}.tgz
 pnpm licenses list --json | pnpm-licenses generate-disclaimer --json-input --output-file=ThirdPartyLicenses.txt
