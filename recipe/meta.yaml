@@ -18,7 +18,7 @@ requirements:
     - nodejs
     - pnpm
     - pnpm-licenses
-    - yarn
+    - yarn <2
   run:
     - nodejs
 
