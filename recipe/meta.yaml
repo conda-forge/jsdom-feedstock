@@ -14,10 +14,17 @@ build:
 requirements:
   build:
     - nodejs  # [not win]
+    - pkg-config
   host:
     - nodejs
     - pnpm
     - pnpm-licenses
+    - glib
+    - pixman
+    - cairo
+    - pango
+    - libjpeg-turbo
+    - giflib
     - yarn <2
   run:
     - nodejs
