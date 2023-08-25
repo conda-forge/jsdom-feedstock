@@ -1,8 +1,20 @@
+cairo:
+- '1'
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
+giflib:
+- '5.2'
+glib:
+- '2'
+libjpeg_turbo:
+- '2'
 nodejs:
 - '20'
+pango:
+- '1.50'
+pixman:
+- '0'
 target_platform:
 - win-64

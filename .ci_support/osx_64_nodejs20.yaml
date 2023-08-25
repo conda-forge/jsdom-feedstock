@@ -1,12 +1,24 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
+cairo:
+- '1'
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
+giflib:
+- '5.2'
+glib:
+- '2'
+libjpeg_turbo:
+- '2'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 nodejs:
 - '20'
+pango:
+- '1.50'
+pixman:
+- '0'
 target_platform:
 - osx-64

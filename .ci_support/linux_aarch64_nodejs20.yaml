@@ -1,5 +1,7 @@
 BUILD:
 - aarch64-conda_cos7-linux-gnu
+cairo:
+- '1'
 cdt_arch:
 - aarch64
 cdt_name:
@@ -10,7 +12,17 @@ channel_targets:
 - conda-forge main
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
+giflib:
+- '5.2'
+glib:
+- '2'
+libjpeg_turbo:
+- '2'
 nodejs:
 - '20'
+pango:
+- '1.50'
+pixman:
+- '0'
 target_platform:
 - linux-aarch64
