@@ -1,4 +1,4 @@
-{% set version = "14.0.0" %}
+{% set version = "27.4.0" %}
 
 package:
   name: jsdom
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/tmpvar/jsdom/archive/{{ version }}.tar.gz
-  sha256: f6d7e19b5e6381156ed89edcccb3b4e44744e51af31ce684c11cded0a1454dd4
+  sha256: 3268705953ad37fc26b0fbec557a914d8acf180ef068e29512059e40a3271b7e
 
 build:
-  number: 6
+  number: 0
 
 requirements:
   build:
